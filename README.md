@@ -8,9 +8,9 @@ Follow instructions here to setup openFrameworks for raspberry pi: http://openfr
 Then 
 ```
 cd /home/pi/openFrameworks/apps/
-mkdir abtech
-cd abtech
-git clone https://github.com/selfberry/selfberry/
+mkdir SophiaDigitalArt
+cd SophiaDigitalArt
+git clone https://github.com/SophiaDigitalArt/selfberry/
 cd selfberry
 ./clone_addons.sh
 make
@@ -19,16 +19,14 @@ make
 
 For the website, setup nodejs then:
 ```
-cd /home/pi/openFrameworks/apps/abtech/selfberry/bin/data/
-git clone https://bitbucket.org/angelsbaytech/selfberry-web.git
-cd selfberry-web
+/home/pi/openFrameworks/apps/SophiaDigitalArt/selfberry-web
 npm install -g live-server
 live-server
 ```
 
 Once compiled, launch directly from command line 
 ```
-./home/pi/openFrameworks/apps/abtech/selfberry-cpp/bin/selfberry
+./home/pi/openFrameworks/apps/SophiaDigitalArt/selfberry-cpp/bin/selfberry
 ```
 
 Keyboard shortcuts:
