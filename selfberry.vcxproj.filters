@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxTCPClient.cpp">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxTCPManager.cpp">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxTCPServer.cpp">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxUDPManager.cpp">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxThreadedImageLoader\src\ofxThreadedImageLoader.cpp">
+      <Filter>addons\ofxThreadedImageLoader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGifEncoder\src\ofxGifEncoder.cpp">
+      <Filter>addons\ofxGifEncoder\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxVideodromm\src\VDLog.cpp">
+      <Filter>addons\ofxVideodromm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\uig.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\videoSlot.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxFTP\src\ofxFTP.cpp">
+      <Filter>addons\ofxFTP\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxFTP\libs\CFtpServer\CFtpServer.cpp">
+      <Filter>addons\ofxFTP\libs\CFtpServer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNetwork">
+      <UniqueIdentifier>{01A15744-29A6-108D-08E9-83A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNetwork\src">
+      <UniqueIdentifier>{3D1C10C7-8F35-E796-9C70-F5F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxThreadedImageLoader">
+      <UniqueIdentifier>{4FCFBE74-4716-4092-C67F-91AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxThreadedImageLoader\src">
+      <UniqueIdentifier>{96E590A4-6AB6-FE3D-02EC-8D08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings">
+      <UniqueIdentifier>{877F005D-13E6-0592-1D97-F2E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\src">
+      <UniqueIdentifier>{CCB2AC63-49D2-977C-CFE8-AEAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\libs">
+      <UniqueIdentifier>{687714A8-1662-FA1C-261F-50F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGifEncoder">
+      <UniqueIdentifier>{B53998DC-FEC5-3374-E87B-ED60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGifEncoder\src">
+      <UniqueIdentifier>{BACC6C90-4215-5125-029E-5D29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxVideodromm">
+      <UniqueIdentifier>{645fa047-6c61-43d9-94f6-d9912d620589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxVideodromm\src">
+      <UniqueIdentifier>{35279bee-575b-42f2-847a-77f55a58e267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{ac2c297f-f1c4-4cb9-ac62-482c84a2d121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFTP">
+      <UniqueIdentifier>{e9f1ac74-0043-48c2-9894-a03626770f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFTP\src">
+      <UniqueIdentifier>{eb0411b8-b222-4ecf-a223-579c9c34d1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFTP\libs">
+      <UniqueIdentifier>{d497681e-7e78-4925-bca4-1f734e7b3f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFTP\libs\CFtpServer">
+      <UniqueIdentifier>{f874e280-945d-41ff-96e1-7d2e32879c9f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxNetwork.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxNetworkUtils.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxTCPClient.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxTCPManager.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxTCPServer.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxUDPManager.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxThreadedImageLoader\src\ofxThreadedImageLoader.h">
+      <Filter>addons\ofxThreadedImageLoader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGifEncoder\src\ofxGifDitherTypes.h">
+      <Filter>addons\ofxGifEncoder\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGifEncoder\src\ofxGifEncoder.h">
+      <Filter>addons\ofxGifEncoder\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGifEncoder\src\ofxGifFrame.h">
+      <Filter>addons\ofxGifEncoder\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVideodromm\src\VDLog.h">
+      <Filter>addons\ofxVideodromm\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\threadedObject.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\uig.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\videoSlot.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFTP\src\ofxFTP.h">
+      <Filter>addons\ofxFTP\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFTP\libs\CFtpServer\CFtpServer.h">
+      <Filter>addons\ofxFTP\libs\CFtpServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFTP\libs\CFtpServer\CFtpServerGlobal.h">
+      <Filter>addons\ofxFTP\libs\CFtpServer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\data\PostProcessing.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="bin\data\PostProcessing.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="bin\data\shaderDesktop.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="bin\data\shaderDesktop.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="bin\data\shaderRpi.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="bin\data\shaderRpi.vert">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="bin\data\settings.xml">
+      <Filter>shaders</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
